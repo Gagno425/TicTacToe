@@ -1,0 +1,86 @@
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.vertical {
+    border-left: 3px dashed black;
+    border-right: 3px dashed black;
+}
+
+.horizontal {
+    border-bottom: 3px dashed black;
+}
+
+.XorO {
+    background-color: transparent;
+    width: 150px;
+    height: 90px;
+    border: none;
+    outline-color: transparent;
+}
+
+#CompetitionWinner {
+    margin-top: 4rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+#PlayAgainBTN {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    color: black;
+}
+
+#PlayAgainBTN:hover {
+    opacity: .8;
+    background-color: rgb(211, 204, 204);
+}
+
+#BTN {
+    width: 5.4915rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Points {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 1rem;
+}
+
+#P1OrP2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+#P1OrP2 input {
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    background-color: transparent;
+    color: black;
+    margin-top: 0.5rem;
+}
+
+#P1OrP2 input:hover {
+    opacity: .8;
+    background-color: rgb(211, 204, 204);
+}
